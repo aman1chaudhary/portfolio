@@ -10,11 +10,11 @@ class Footer extends Component {
                         <div className="container">
                             <div className="row">
                                 <div className="col-12 col-lg-12 col-md-12 text-center">
-                                    <div className='footer_logo'>
+                                    <div className="footer_logo">
                                         <Image src={Logo} alt='logo' />
                                     </div>
                                     <h4>
-                                    Designing tomorrow's possibilities <br/> through today's creativity.
+                                    Designing tomorrow&apos;s possibilities <br/> through today&apos;s creativity.
                                     </h4>
                                     <ul className="list-inline m-a0 text-center">
                                         <li><a href="https://github.com/aman1chaudhary" target='_blank' rel="noreferrer" className="site-button facebook circle mr-1"><i className="fa fa-github"></i></a></li>

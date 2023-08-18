@@ -116,7 +116,7 @@ const Contact = () => {
                                 <div className="col-lg-8 col-xs-8">
                                     <div className="inquiry-form dzForm" >
                                         <div className="dzFormMsg"></div>
-                                        <h3 className="box-title m-t0 m-b10">Let's Convert Your Idea into Reality <span className="bg-primary"></span></h3>
+                                        <h3 className="box-title m-t0 m-b10">Let&apos;s Convert Your Idea into Reality <span className="bg-primary"></span></h3>
                                         <p>Get in touch!</p>
                                         <div className="row">
                                             <div className="col-lg-6">

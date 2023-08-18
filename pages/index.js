@@ -28,7 +28,7 @@ const HomePage = () => {
                 <div className="home-banner" style={{ backgroundImage: "url(" + bgimg.src + ")" }}>
                     <div className="home-bnr-inner">
                         <div className="home-bnr-content">
-                            <h4 className="sub-title">Hi, I'm</h4>
+                            <h4 className="sub-title">Hi, I&apos;m</h4>
                             <h2 className="dz-title">Aman Chaudhary</h2>
                             <h4 className="sub-title">a Full Stack & WebGIS Developer</h4>
                             <div className="home-bnr-btns">
@@ -149,7 +149,7 @@ const HomePage = () => {
                             <div className="row">
                                 <div className="col-lg-12">
                                     <div className="section-head text-center">
-                                        <h2 className="font-weight-300">My Recent Work<p style={{ fontSize: "18px" }}>Here are a few past projects I've worked on.</p></h2>
+                                        <h2 className="font-weight-300">My Recent Work<p style={{ fontSize: "18px" }}>Here are a few past projects I&apos;ve worked on.</p></h2>
 
                                     </div>
                                 </div>
@@ -186,7 +186,8 @@ const HomePage = () => {
                                 <div className="col-lg-8">
                                     <div className="section-head text-center">
                                         <h2 className="text-uppercase"><span className="font-weight-300">Happy Clients</span> <br /> Project Reviews</h2>
-                                        <h5 className="font-weight-300 text-gray-dark">People I've worked with have said some nice things...</h5>
+                                        <h5 className="font-weight-300 text-gray-dark">People I&apos;ve worked with have said some nice things...</h5>
+
                                     </div>
                                     <ReviewsCarousel />
                                 </div>
@@ -206,7 +207,7 @@ const HomePage = () => {
 
                                 </div>
                                 <div className="col-lg-2 col-md-3">
-                                    <Link href="/contact" ><button className="site-button button-md radius-xl white btn-block">Let's do this</button></Link>
+                                    <Link href="/contact" ><button className="site-button button-md radius-xl white btn-block">Let&apos;s do this</button></Link>
                                 </div>
                             </form>
                         </div>
