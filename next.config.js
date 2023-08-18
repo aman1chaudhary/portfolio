@@ -2,6 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
+  optimizeFonts: false, // Disable font optimization
 }
 
-module.exports = nextConfig
+module.exports = nextConfig;
