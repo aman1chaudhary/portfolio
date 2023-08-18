@@ -9,9 +9,7 @@ font-family: 'Raleway', sans-serif;
 font-family: 'Rubik', sans-serif; */
 
 
-* {
-    font-family: 'Raleway Variable', sans-serif !important;
-   }
+
 
 
 
@@ -22,6 +20,10 @@ font-family: 'Rubik', sans-serif; */
 @import url("./plugins/animate/animate.css");
 @import url("./plugins/scroll/scrollbar.css");
 
+
+* {
+    font-family: 'Raleway Variable', sans-serif ;
+   }
 
 
 
