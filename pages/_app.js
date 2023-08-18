@@ -1,3 +1,4 @@
+import '../styles/global.css';
 import '../styles/plugins.css';
 import '../styles/style.css';
 import '../styles/navbar.css';
