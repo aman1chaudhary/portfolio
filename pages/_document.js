@@ -9,6 +9,9 @@ export default function Document() {
         <meta name="keywords" content="Aman Chaudhary, Web Developer, Freelance Web Developer" />
         <meta name="author" content="Aman Chaudhary" />
         <meta name="google-site-verification" content="MZTK0uf2XlaN0lQNV9tIfP56jnhWKCVj332CE7yK0PM" />
+        {/* <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet" /> */}
         <link rel="stylesheet" type="text/css" charset="UTF-8"
           href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css" />
         <link rel="stylesheet" type="text/css"
