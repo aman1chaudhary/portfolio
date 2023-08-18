@@ -10,7 +10,7 @@ const ProjectDetails = () => {
 
     const Router = useRouter()
     const ProjectName = Router.query.ProjectName;
-    // console.log(Router)
+
 
     const [Project, setProject] = useState(null);
     useEffect(() => {
@@ -18,7 +18,9 @@ const ProjectDetails = () => {
         if (Project) {
             setProject(Project);
         }
-    }, [Project]);
+    });
+
+
 
 
 

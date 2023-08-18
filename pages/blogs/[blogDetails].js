@@ -16,9 +16,8 @@ const BlogDetails = () => {
         if (Blog) {
             setBlog(Blog);
         }
-    }, [BlogTitle]);
+    });
 
-    console.log(Router)
 
 
 

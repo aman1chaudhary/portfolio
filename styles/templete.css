@@ -1,3 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700;800&family=Nunito:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700;800&family=Raleway:wght@300;400;500;600;700;800&family=Rubik:wght@400;500;600;700;800;900&display=swap');
+   
+/* font-family: 'Jost', sans-serif;
+font-family: 'Nunito', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Rubik', sans-serif; */
+
+
+
+
 /*==========================
 	Custom css
 ==========================*/
@@ -253,7 +264,7 @@
 }
 .chosesus-content .list-checked li:before{
 	content:"\e64d";
-	font-family: 'themify';
+	font-family: 'Raleway', sans-serif;;
 	font-size: 18px;
 }
 .chosesus-content .list-checked li {
@@ -4235,12 +4246,12 @@ button:focus{
     background-position: bottom center;
 }
 .home-banner .home-bnr-inner:before{
-	background-image:url(/images/background/box-bg2.png);
+	/* background-image:url(/images/background/box-bg2.png); */
 	background-size: 350px;
 	animation: dzMove1 9s linear infinite;
 }
 .home-banner .home-bnr-inner:after{
-	background-image:url(/images/background/box-bg1.png);
+	/* background-image:url(/images/background/box-bg1.png); */
 	background-size: 480px;
 	animation: dzMove1 11s linear infinite;
 }
