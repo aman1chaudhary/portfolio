@@ -7,7 +7,7 @@ import '../styles/plugins/slick/slick.min.css';
 import '../styles/plugins/slick/slick-theme.min.css';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
-
+import '@fontsource-variable/raleway';
 
 function MyApp({ Component, pageProps }) {
   return(
