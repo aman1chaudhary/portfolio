@@ -3111,7 +3111,7 @@ blockquote:before {
     right: 0px;
     visibility: hidden;
     width: 100%;
-	font-family: Montserrat;
+	font-family: "Montserrat",sans-serif;
     margin-top: 20px;
 	z-index: 9;
 }
@@ -6059,7 +6059,7 @@ ol.comment-list li.comment .comment-respond .comment-form p {
 .news-box form:after {
     color: #000000;
     content: "Newslatter";
-    font-family: montserrat;
+    font-family: "Montserrat",sans-serif;
     font-size: 50px;
     font-weight: 700;
     opacity: 0.05;
@@ -6090,7 +6090,7 @@ ol.comment-list li.comment .comment-respond .comment-form p {
 }
 .widget-about p{
 	color: #333333;
-    font-family: montserrat;
+    font-family: "Montserrat",sans-serif;
     font-size: 13px;
     line-height: 20px;
 }
@@ -6124,7 +6124,7 @@ ol.comment-list li.comment .comment-respond .comment-form p {
 }
 .widget-testimonial .testimonial-text{
 	color: #505050;
-    font-family: montserrat;
+    font-family: "Montserrat",sans-serif;
     font-size: 15px;
     font-weight: 300;
     margin-bottom: 10px;
@@ -7642,7 +7642,7 @@ a,
 /* Site Filters Style */
 .site-filters.style1 li a {
     color: #000316;
-    font-family: montserrat;
+    font-family: "Montserrat",sans-serif;
     font-weight: 400;
     margin: 0;
 	padding: 0 15px;
@@ -8151,7 +8151,7 @@ ul[class*="list-"]{
     color: #3d474a;
     -webkit-border-radius: 0;
     border-radius: 0;
-	font-family: montserrat;
+	font-family: "Montserrat",sans-serif;
     font-size: 15px;
     font-weight: 400;
     text-transform: capitalize;
@@ -8886,13 +8886,13 @@ ul[class*="list-"]{
     padding: 5px;
 }
 .testimonial-name{
-    font-family: montserrat;
+    font-family: "Montserrat",sans-serif;
     font-size: 16px;
     font-weight: 600;
     text-transform: uppercase;
 }
 .testimonial-position {
-	font-family: montserrat;
+	font-family: "Montserrat",sans-serif;
     font-size: 12px;
     font-style: inherit;
     text-transform: uppercase;
@@ -9350,7 +9350,7 @@ ul[class*="list-"]{
 .testimonial-9 .testimonial-text,
 .testimonial-10 .testimonial-text{
 	color: #505050;
-    font-family: montserrat;
+    font-family: "Montserrat",sans-serif;
     font-size: 15px;
     font-weight: 300;
     margin-bottom: 10px;
@@ -9393,7 +9393,7 @@ ul[class*="list-"]{
 }
 .pricingtable-bx {
     color: #282a3c;
-    font-family: montserrat;
+    font-family: "Montserrat",sans-serif;
     font-size: 45px;
     font-weight: 500;
 }
@@ -9461,7 +9461,7 @@ ul[class*="list-"]{
 .pricingtable-wrapper.style1 {
     border: 2px solid #d3d3d3;
     padding: 10px 10px 40px;
-	font-family: montserrat;
+	font-family: "Montserrat",sans-serif;
 	margin-left:-1px;
 }
 .pricingtable-wrapper.style1 .pricingtable-icon i{
@@ -9484,7 +9484,7 @@ ul[class*="list-"]{
 	background: #ffffff none repeat scroll 0 0;
     border: 0 none;
     color: #000;
-    font-family: montserrat;
+    font-family: "Montserrat",sans-serif;
     font-weight: 500;
     padding: 8px 0;
     text-align: left;
@@ -9606,7 +9606,7 @@ ul[class*="list-"]{
 /*== >Alert box =====*/
 
 .alert{
-	font-family: montserrat;
+	font-family: "Montserrat",sans-serif;
 	border-radius: 4px;
 	padding: 15px 20px;
 }
@@ -10680,7 +10680,7 @@ ul[class*="list-"]{
     color: #767676;
     padding: 8px 14px;
     font-weight: 400;
-	font-family: montserrat;
+	font-family: "Montserrat",sans-serif;
     font-size: 14px;
 }
 .pagination > li > a:hover,

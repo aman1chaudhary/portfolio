@@ -1031,7 +1031,7 @@ footer .widget_services .list-2 li:before{
 }
 .dz_error-405 .dz_error{
     color: #afafaf;
-    font-family: poppins;
+    font-family: 'Poppins', sans-serif;
     font-size: 200px;
     font-weight: 700;
 	line-height: 200px;
@@ -2469,7 +2469,7 @@ svg.radial-progress:nth-of-type(6n+1) circle {
 }
 
 .product-box .product-details .product-title{
-	font-family:poppins;
+	font-family:'Poppins', sans-serif;
 	font-size: 18px;
 	line-height: 24px;
 	font-weight: 400;
@@ -2491,7 +2491,7 @@ svg.radial-progress:nth-of-type(6n+1) circle {
 .product-price h4{
 	font-size:20px;
 	font-weight:500;
-	font-family:poppins;
+	font-family:'Poppins', sans-serif;
 	color:#ff8a73;
 	margin-bottom:10px;
 }
@@ -3326,7 +3326,7 @@ footer.business-footer.footer-white .footer-bottom a{
 }
 .pricingtable-wrapper .pricingtable-price .pricingtable-bx{
     font-weight: 700;
-    font-family: poppins;
+    font-family: 'Poppins', sans-serif;
     font-size: 60px;
 	line-height: 60px;
 	color: unset;

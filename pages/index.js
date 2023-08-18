@@ -111,7 +111,7 @@ const HomePage = () => {
                                     <div className="icon-bx-wraper bx-style-1 p-a30 center">
                                         <div className="icon-lg text-white m-b20"> <Link href={"#"} className="icon-cell text-white"><i className="flaticon-devices" /></Link> </div>
                                         <div className="icon-content">
-                                            <h5 className="dlab-tilte text-uppercase">Frontend Development</h5>
+                                            <h5 className="dlab-tilte">Frontend Development</h5>
                                             <p>React JS, Next JS</p>
                                         </div>
                                     </div>
@@ -121,7 +121,7 @@ const HomePage = () => {
                                     <div className="icon-bx-wraper bx-style-1 p-a30 center">
                                         <div className="icon-lg text-white m-b20"> <Link href={"#"} className="icon-cell text-white"><i className="flaticon-development" /></Link> </div>
                                         <div className="icon-content">
-                                            <h5 className="dlab-tilte text-uppercase">Backend Development</h5>
+                                            <h5 className="dlab-tilte">Backend Development</h5>
                                             <p>Node JS, Flask, Rest API, Mongo DB, PostgreSQL</p>
                                         </div>
                                     </div>
@@ -131,7 +131,7 @@ const HomePage = () => {
                                     <div className="icon-bx-wraper bx-style-1 p-a30 center">
                                         <div className="icon-lg text-white m-b20"> <Link href={"#"} className="icon-cell text-white"><i className="flaticon-map-location" /></Link> </div>
                                         <div className="icon-content">
-                                            <h5 className="dlab-tilte text-uppercase">WebGIS Development</h5>
+                                            <h5 className="dlab-tilte">WebGIS Development</h5>
                                             <p>Leaflet JS, Openlayers, ArcGIS API</p>
                                         </div>
                                     </div>
