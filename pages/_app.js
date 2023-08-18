@@ -1,6 +1,6 @@
 import '../styles/plugins.css';
 import '../styles/style.css';
-import '../styles/Navbar.css';
+import '../styles/navbar.css';
 import '../styles/templete.css';
 import '../styles/skin.css';
 import '../styles/plugins/slick/slick.min.css';
