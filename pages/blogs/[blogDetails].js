@@ -5,6 +5,7 @@ import bannerIMG from '../../public/images/background/banner_1.png';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import Image from 'next/image';
+import Head from 'next/head';
 
 const BlogDetails = () => {
     const Router = useRouter()
@@ -23,6 +24,9 @@ const BlogDetails = () => {
 
     return (
         <>
+                    <Head>
+                <title>Aman Chaudhary | Portfolio</title>
+            </Head>
 
             <div className="page-content bg-white">
                 <div className="dlab-bnr-inr overlay-primary" style={{ backgroundImage: "url(" + bannerIMG.src + ")" }}>

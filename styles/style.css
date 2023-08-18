@@ -124,7 +124,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     font-weight: 400;
-    color:#6f6f6f;
+    color:#000000;
     padding: 0;
     margin: 0;
     overflow-x: hidden;
@@ -240,7 +240,7 @@ h3,
 h4,
 h5,
 h6 {
-    color: #111111;
+    color: #000000;
     /* font-family: "Poppins" !important; */
 }
 h1 a,

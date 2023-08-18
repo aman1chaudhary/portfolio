@@ -4,10 +4,15 @@ import bannerIMG from '../../public/images/background/banner_1.png';
 import { BlogData } from '../../data/BlogData';
 import Link from 'next/link';
 import Image from 'next/image';
+import Head from 'next/head';
 
 const BlogPage = () => {
   return (
-    <div>
+    <>
+		            <Head>
+                <title>Aman Chaudhary | Portfolio</title>
+            </Head>
+
         <div className="page-content bg-white">
 					<div className="dlab-bnr-inr overlay-primary" style={{ backgroundImage: "url(" + bannerIMG.src + ")" }}>
 						<PageTitle motherMenu="Blogs" activeMenu="Blogs" />
@@ -59,7 +64,7 @@ const BlogPage = () => {
 						</div>
 					</div>
 				</div>
-    </div>
+    </>
   )
 }
 

@@ -4,6 +4,7 @@ import PageTitle from '../../components/PageTitle';
 import { ProjectsDetailsData } from '../../data/ProjectsDetailsData';
 import ImgCarousel from '../../components/ImgCarousel';
 import { useRouter } from 'next/router';
+import Head from 'next/head';
 
 
 const ProjectDetails = () => {
@@ -27,6 +28,9 @@ const ProjectDetails = () => {
 
     return (
         <>
+                    <Head>
+                <title>Aman Chaudhary | Portfolio</title>
+            </Head>
             <div className="page-content bg-white">
                 <div className="dlab-bnr-inr overlay-primary" style={{ backgroundImage: "url(" + bannerIMG.src + ")" }}>
                     <PageTitle motherMenu='Project Details' activeMenu='Project Details' />
