@@ -86,13 +86,13 @@ const ResumePage = () => {
                                                         <li>
                                                             <p><b>Full Stack Web Developer | Kentrix | Mumbai | Summer Internship</b><br />
                                                                 Throughout my internship, I had the opportunity to work on three exciting dashboard projects, each offering unique functionalities to enhance user experiences and data-driven decision-making:
-                                                            
+                                                                </p>  
                                                             <ol>
                                                                 <li> Persona 360 Dashboard: This dashboard was designed to enable users to create Meta campaigns with enhanced niche segmentation. By leveraging over 100+ filters, such as Income, demographic behavior, NCCS, and more, users gained valuable insights into their target audience. My role in this project involved crafting the frontend using React JS and developing the backend with Flask.</li>
                                                                 <li> Mahindra Dashboard: The Mahindra Dashboard allows users to input sales data, generating cohort reports and feature importance analyses using machine learning models and geospatial analysis. The incorporation of geolocation data enriched the visual representation of insights. I played a significant role in building this dashboard, utilizing React JS for the frontend, Flask for the backend, and PostgreSQL for database management. Additionally, I implemented an admin interface within the dashboard, empowering administrators to manage users effectively.</li>
                                                                 <li>Karma Dashboard/Software: The main objective of the Karma Dashboard/Software was to fetch data for a specific address from Kentrix API. This versatile dashboard enabled users to fetch data for a single address or perform batch operations using CSV files. Upon retrieving the data, users could download the output as a CSV file. To ensure smooth accessibility, I developed both .dmg and .exe setups for Mac and Windows users, respectively. The Karma Dashboard was built using React JS as the frontend framework and Electron JS as the software framework.</li>
                                                             </ol>
-                                                            </p>  
+                                                            
 
 
                                                         </li>
@@ -116,7 +116,7 @@ const ResumePage = () => {
 
                                                         <li>
                                                             <p><b>Web Developer, Water & Climate Lab, IIT Gandhinagar</b><br />
-                                                            Developed the official website of Water & Climate lab, Indian Institute of Technology Gandhinagar using technologies such as HTML, CSS, and React JS. The website features several tools, including a research database, current people and alumni database, and publication search function. The website played a crucial role in promoting the lab's research and increasing its visibility.
+                                                            Developed the official website of Water & Climate lab, Indian Institute of Technology Gandhinagar using technologies such as HTML, CSS, and React JS. The website features several tools, including a research database, current people and alumni database, and publication search function. The website played a crucial role in promoting the lab&apos;s research and increasing its visibility.
                                                             </p>
                                                         </li>
                                                         <li>
