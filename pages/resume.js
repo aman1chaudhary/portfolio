@@ -51,7 +51,7 @@ const ResumePage = () => {
                                                     <ul className="font-16">
                                                         <li>
                                                             <p><b>Indian Institute of Technology Gandhinagar</b><br />
-                                                                Senior Undergraduate | 2020 - Present <br />
+                                                                Senior Undergraduate | 2020 - 2024 <br />
                                                                 Discipline of Civil Engineering with Minors in CSE
                                                             </p>
                                                         </li>
@@ -59,14 +59,14 @@ const ResumePage = () => {
                                                         <li>
                                                             <p><b> Boston Public School, Agra</b><br />
                                                                 2019 — 2020<br />
-                                                                Class XII | CBSE Board | 93%
+                                                                Class XII | CBSE Board | 92.4%
                                                             </p>
                                                         </li>
 
                                                         <li>
                                                             <p><b>D.E.I. R.E.I. Intermediate College, Agra</b><br />
                                                                 2017— 2018<br />
-                                                                Class X | 9.9/10
+                                                                Class X | 9.89/10
                                                             </p>
                                                         </li>
 
@@ -86,27 +86,37 @@ const ResumePage = () => {
                                                         <li>
                                                             <p><b>Full Stack Web Developer | Kentrix | Mumbai | Summer Internship</b><br />
                                                                 Throughout my internship, I had the opportunity to work on three exciting dashboard projects, each offering unique functionalities to enhance user experiences and data-driven decision-making:
-                                                            </p>  <ol>
+                                                            
+                                                            <ol>
                                                                 <li> Persona 360 Dashboard: This dashboard was designed to enable users to create Meta campaigns with enhanced niche segmentation. By leveraging over 100+ filters, such as Income, demographic behavior, NCCS, and more, users gained valuable insights into their target audience. My role in this project involved crafting the frontend using React JS and developing the backend with Flask.</li>
                                                                 <li> Mahindra Dashboard: The Mahindra Dashboard allows users to input sales data, generating cohort reports and feature importance analyses using machine learning models and geospatial analysis. The incorporation of geolocation data enriched the visual representation of insights. I played a significant role in building this dashboard, utilizing React JS for the frontend, Flask for the backend, and PostgreSQL for database management. Additionally, I implemented an admin interface within the dashboard, empowering administrators to manage users effectively.</li>
                                                                 <li>Karma Dashboard/Software: The main objective of the Karma Dashboard/Software was to fetch data for a specific address from Kentrix API. This versatile dashboard enabled users to fetch data for a single address or perform batch operations using CSV files. Upon retrieving the data, users could download the output as a CSV file. To ensure smooth accessibility, I developed both .dmg and .exe setups for Mac and Windows users, respectively. The Karma Dashboard was built using React JS as the frontend framework and Electron JS as the software framework.</li>
                                                             </ol>
+                                                            </p>  
 
 
                                                         </li>
                                                         <li>
-                                                            <p><b>WebGIS Developer | IIT Gandhinagar | Part Time</b><br />
+                                                            <p><b>WebGIS Developer | Summer Research Internship Program | Water & Climate Lab, IIT Gandhinagar</b><br />
+                                                            <ol>
+                                                                <li>
                                                                 Developed and hosted the India Drought Monitor that shows India’s real-time drought conditions and forecast. The Geoportal fetches data from Google Drive and updates weekly automatically. The monitor represents the geospatial data on interactive and user-friendly maps. The map uses five classifications: abnormally dry (D0), showing areas that may be going into or are coming out of drought, and four levels of drought: moderate (D1), severe (D2), extreme (D3), and exceptional (D4).
+                                                                </li>
+                                                                <li>
+                                                                Developed the Geoportal of Indian Dams (GeoID) with the database of more than 5000 dams in India, including their catchment characteristics, LULC analysis, and flood risk assessment using Geographic Information System (GIS), Google earth engine.
+                                                                </li>
+                                                            </ol>
+                                                                
                                                             </p>
                                                         </li>
+                                                        
+
+
+                                                
+
                                                         <li>
-                                                            <p><b>Web Developer | Water & Climate Lab, IIT Gandhinagar | Internship</b><br />
-                                                                Developed the Geoportal of Indian Dams (GeoID) with the database of more than 5000 dams in India, including their catchment characteristics, LULC analysis, and flood risk assessment using Geographic Information System (GIS), Google earth engine, and Remote sensing.
-                                                            </p>
-                                                        </li>
-                                                        <li>
-                                                            <p><b>Web Developer | SynOCE (Civil Engineering Society of IIT Gandhinagar), IIT Gandhinagar</b><br />
-                                                                Developed the SynOCE Website.
+                                                            <p><b>Web Developer, Water & Climate Lab, IIT Gandhinagar</b><br />
+                                                            Developed the official website of Water & Climate lab, Indian Institute of Technology Gandhinagar using technologies such as HTML, CSS, and React JS. The website features several tools, including a research database, current people and alumni database, and publication search function. The website played a crucial role in promoting the lab's research and increasing its visibility.
                                                             </p>
                                                         </li>
                                                         <li>
@@ -119,6 +129,8 @@ const ResumePage = () => {
                                                                 Worked in a group of 5 members to design a food waste analysis website. This website shows the daily food waste of the IIT Gandhinagar mess in a matrix form and displays the water, energy, carbon, labour footprint value associated with this waste food.
                                                             </p>
                                                         </li>
+
+
                                                     </ul>
                                                 </div>
                                                 <div className="line-num bg-primary-dark"></div>
