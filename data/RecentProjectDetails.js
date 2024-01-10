@@ -4,9 +4,19 @@ import india_drought_monitor from '../public/images/projects/india_drought_monit
 import wcl_iitgn from '../public/images/projects/wcl_iitgn.jpg';
 import lulc_analysis from '../public/images/projects/lulc_analysis.jpg';
 import kentrix_persona from '../public/images/projects/kentrix_persona.jpg';
-
+import Combat_Sports_Analytics_1 from '../public/images/projects/Combat_Sports_Analytics_1.jpg';
 
 export const RecentProjectDetails =[
+    {
+        ProjectName:"Combat Sports Analytics Dashboard",
+        TagLine:"A dashboard that enables users to upload sports video footage, select specific segments of interest, and generate 3D interactive animations of the selected video segment.",
+        Description:"A dashboard that enables users to upload sports video footage, select specific segments of interest, and generate 3D interactive animations of the selected video segment. MotionBERT and AlphaPose ML models were used to estimate the 3D animation from 2D video. These 3D animations provide valuable insights to improve athletes performance, refine strategies, and enhance training routines.",
+        Tags:['Web Development', 'Full Stack Web Development',"React JS", "Flask"],
+        Image:Combat_Sports_Analytics_1,
+        Link:"https://ringmaster-analytics.onrender.com/",
+        Technology:['React JS', 'Flask',]
+
+    },
     {
         ProjectName:"Kentrix Dashboard",
         TagLine:"Full Stack Web Development",
@@ -47,16 +57,16 @@ export const RecentProjectDetails =[
         Technology:["React JS"]
 
     },
-    {
-        ProjectName:"WCL IITGN",
-        TagLine:"Water & Climate Lab, IIT Gandhinagar.",
-        Description:"Water & Climate Lab, IIT Gandhinagar.",
-        Tags:['WebGIS Development', 'Web Development',],
-        Image:wcl_iitgn,
-        Link:"https://vmishra.people.iitgn.ac.in/water&climate/",
-        Technology:["React JS"]
+    // {
+    //     ProjectName:"WCL IITGN",
+    //     TagLine:"Water & Climate Lab, IIT Gandhinagar.",
+    //     Description:"Water & Climate Lab, IIT Gandhinagar.",
+    //     Tags:['WebGIS Development', 'Web Development',],
+    //     Image:wcl_iitgn,
+    //     Link:"https://vmishra.people.iitgn.ac.in/water&climate/",
+    //     Technology:["React JS"]
 
-    },
+    // },
     {
         ProjectName:"LULC Analysis Using Google Earth Engine",
         TagLine:"The percent fraction cover for various LULC classes and its dynamic nature from 2015-2019.",

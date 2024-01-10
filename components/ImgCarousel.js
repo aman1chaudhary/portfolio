@@ -21,7 +21,7 @@ function SamplePrevArrow(props) {
 }
 
 
-const ImgCarousel = ({ pic1, pic2 }) => {
+const ImgCarousel = ({ Images }) => {
 	var settings = {
 		arrows: true,
 		slidesToShow: 1,
@@ -56,12 +56,15 @@ const ImgCarousel = ({ pic1, pic2 }) => {
 
 	return (
 		<Slider className="owl-fade-one owl-loaded  owl-btn-center-lr owl-btn-1 black owl-drag" {...settings}>
-			<div className="item">
-				<Image src={pic1} alt="" />
-			</div>
-			<div className="item">
-				<Image src={pic2} alt="" />
-			</div>
+			{Images.map((image, index) => (
+
+				<div className="item" key={index}>
+					<Image src={image} alt="" />
+				</div>
+
+
+			))}
+
 		</Slider>
 	)
 }

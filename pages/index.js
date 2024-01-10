@@ -179,7 +179,7 @@ const HomePage = () => {
                         </div>
                     </div>
 
-                    <div className="section-full content-inner-2 bg-img-fix overlay-primary gradient testimonial-curv-bx m-b20" style={{ backgroundImage: "url(" + bg1.src + ")" }}>
+                    {/* <div className="section-full content-inner-2 bg-img-fix overlay-primary gradient testimonial-curv-bx m-b20" style={{ backgroundImage: "url(" + bg1.src + ")" }}>
                         <div className="container">
                             <div className="row">
                                 <div className="col-lg-2"></div>
@@ -193,7 +193,7 @@ const HomePage = () => {
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
 
 
                     <div className="section-full content-inner-2 bg-img-fix overlay-primary gradient subscribe-bx" style={{ backgroundImage: "url(" + bg1.src + ")" }}>

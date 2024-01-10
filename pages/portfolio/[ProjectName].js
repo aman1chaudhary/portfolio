@@ -28,7 +28,7 @@ const ProjectDetails = () => {
 
     return (
         <>
-                    <Head>
+            <Head>
                 <title>Aman Chaudhary | Portfolio</title>
             </Head>
             <div className="page-content bg-white">
@@ -50,7 +50,7 @@ const ProjectDetails = () => {
                                     </div>
 
                                     <div className="col-lg-6 col-md-6">
-                                        <ImgCarousel pic1={Project.Image} pic2={Project.Image2} />
+                                        <ImgCarousel Images={Project.CarouselImages} />
                                         <div className="p-a30 bg-gray">
                                             <h2>Technologies</h2>
                                             {Project.Technology.map((item, index) => (

@@ -75,8 +75,8 @@ const Contact = () => {
                             <div className="row">
                                 <div className="col-lg-4 col-xs-4">
                                     <div className="row text-white">
-                                        <div className="col-lg-12 col-md-6 m-b30" >
-                                            <div className="icon-bx-wraper bx-style-1 p-a20 radius-sm">
+                                        <div className="col-lg-12 col-md-6 m-b50" >
+                                            <div className="icon-bx-wraper bx-style-1 p-a50 radius-sm">
                                                 <div className="icon-content">
                                                     <h5 className="dlab-tilte">
                                                         <span className="icon-sm text-primary text-left"><i className="ti-location-pin"></i></span>
@@ -87,7 +87,7 @@ const Contact = () => {
                                             </div>
                                         </div>
                                         <div className="col-lg-12 col-md-6 m-b30 ">
-                                            <div className="icon-bx-wraper bx-style-1 p-a20 radius-sm">
+                                            <div className="icon-bx-wraper bx-style-1 p-a50 radius-sm">
                                                 <div className="icon-content">
                                                     <h5 className="dlab-tilte">
                                                         <span className="icon-sm text-primary text-left"><i className="ti-email"></i></span>
@@ -100,7 +100,7 @@ const Contact = () => {
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className="col-lg-12 col-md-6 m-b30 ">
+                                        {/* <div className="col-lg-12 col-md-6 m-b30 ">
                                             <div className="icon-bx-wraper bx-style-1 p-a20 radius-sm">
                                                 <div className="icon-content">
                                                     <h5 className="dlab-tilte">
@@ -110,7 +110,7 @@ const Contact = () => {
                                                     <p>+91 9084844024</p>
                                                 </div>
                                             </div>
-                                        </div>
+                                        </div> */}
                                     </div>
                                 </div>
                                 <div className="col-lg-8 col-xs-8">
