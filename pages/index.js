@@ -4,7 +4,7 @@ import ReviewsCarousel from '../components/ReviewsCarousel';
 import bgimg from '../public/images/background/main-background.jpg';
 import about1 from '../public/images/aman.jpg';
 import bg1 from '../public/images/background/bg1.jpg';
-import { RecentProjectDetails } from '../data/RecentProjectDetails';
+import { ProjectsDetailsData } from '../data/ProjectsDetailsData';
 import ContactForm from '../components/ContactForm';
 import Link from 'next/link';
 import Image from 'next/image';
@@ -156,7 +156,7 @@ const HomePage = () => {
                             </div>
 
                             <div className="row">
-                                {RecentProjectDetails.map((project, index) => (
+                                {ProjectsDetailsData.slice(0, 9).map((project, index) => (
                                     <div className="col-lg-4 col-md-12 col-sm-12" key={index}>
                                         <div className="dlab-box portfolio-box m-b30">
                                             <div className="dlab-media dlab-img-effect dlab-img-overlay1" data-tilt=""> <Image src={project.Image} alt="" />

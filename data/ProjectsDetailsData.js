@@ -115,28 +115,6 @@ export const ProjectsDetailsData =[
 
     },
     {
-        ProjectName:"India Natural Hazards Geoportal",
-        TagLine:"Developed a responsive WebGIS dashboard displaying India’s natural hazards data (drought, flood, earthquake, cyclone, epidemics, lightning, etc.) on interactive maps.",
-        Description:"A responsive WebGIS dashboard displaying India’s natural hazards data (drought, flood, earthquake, cyclone, epidemics, lightning, etc.) on interactive maps. Implemented map download functionality to enhance data accessibility for users. Designed and implemented an engaging dynamic quiz feature.",
-        Tags:['Web Development', 'WebGIS Development',"React JS",],
-        Image:India_Natural_Hazards_1,
-        CarouselImages:[India_Natural_Hazards_1, India_Natural_Hazards_2],
-        Link:"https://geospatial-smart-thinkers.github.io/natural-hazards/",
-        Technology:['React JS', 'Flask',]
-
-    },
-    {
-        ProjectName:"Choropleth Map Generator",
-        TagLine:"An open-source WebGIS Dashboard for designing and customizing choropleth maps.",
-        Description:"An open-source WebGIS Dashboard for designing and customizing choropleth maps.",
-        Tags:['Web Development', 'WebGIS Development',"React JS",],
-        Image:Choropleth_Map_Generator_1,
-        CarouselImages:[Choropleth_Map_Generator_1, Choropleth_Map_Generator_2],
-        Link:"https://geospatial-smart-thinkers.github.io/choropleth-map/",
-        Technology:['React JS', 'Flask',]
-
-    },
-    {
         ProjectName:"India Drought Monitor",
         TagLine:"A real-time drought monitoring and forecasting web application",
         Description:"A real-time drought monitoring and forecasting web application that provides valuable insights into drought conditions in India and updates on a weekly basis.",
@@ -158,6 +136,30 @@ export const ProjectsDetailsData =[
         Technology:['React JS', 'Leaflet JS',]
 
     },
+    
+    {
+        ProjectName:"India Natural Hazards Geoportal",
+        TagLine:"Developed a responsive WebGIS dashboard displaying India’s natural hazards data (drought, flood, earthquake, cyclone, epidemics, lightning, etc.) on interactive maps.",
+        Description:"A responsive WebGIS dashboard displaying India’s natural hazards data (drought, flood, earthquake, cyclone, epidemics, lightning, etc.) on interactive maps. Implemented map download functionality to enhance data accessibility for users. Designed and implemented an engaging dynamic quiz feature.",
+        Tags:['Web Development', 'WebGIS Development',"React JS",],
+        Image:India_Natural_Hazards_1,
+        CarouselImages:[India_Natural_Hazards_1, India_Natural_Hazards_2],
+        Link:"https://geospatial-smart-thinkers.github.io/natural-hazards/",
+        Technology:['React JS', 'Flask',]
+
+    },
+    {
+        ProjectName:"Choropleth Map Generator",
+        TagLine:"An open-source WebGIS Dashboard for designing and customizing choropleth maps.",
+        Description:"An open-source WebGIS Dashboard for designing and customizing choropleth maps.",
+        Tags:['Web Development', 'WebGIS Development',"React JS",],
+        Image:Choropleth_Map_Generator_1,
+        CarouselImages:[Choropleth_Map_Generator_1, Choropleth_Map_Generator_2],
+        Link:"https://geospatial-smart-thinkers.github.io/choropleth-map/",
+        Technology:['React JS', 'Flask',]
+
+    },
+
     {
         ProjectName:"Hallabol",
         TagLine:"The intra-institute annual sports festival of IITGN.",
