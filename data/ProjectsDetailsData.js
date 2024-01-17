@@ -26,11 +26,25 @@ import India_Natural_Hazards_1 from '../public/images/projects/India_Natural_Haz
 import India_Natural_Hazards_2 from '../public/images/projects/India_Natural_Hazards_2.jpg';
 import Agrocast_1 from '../public/images/projects/Agrocast_1.jpg';
 import Agrocast_2 from '../public/images/projects/Agrocast_2.jpg';
+import drought_atlas_1 from '../public/images/projects/drought_atlas_1.jpg';
+import drought_atlas_2 from '../public/images/projects/drought_atlas_2.jpg';
+import drought_atlas_3 from '../public/images/projects/drought_atlas_3.jpg';
 
 
 
 export const ProjectsDetailsData =[
 
+    {
+        ProjectName:"Drought Atlas of India",
+        TagLine:"Drought atlas of India is based on the high-resolution Standardised Precipitation Evapotranspiration Index (SPEI). The atlas provide glimpse of past droughts in summer monsoon, winter monsoon, calender year, and water year during 1901-2020.",
+        Description:"Drought atlas of India is based on the high-resolution Standardised Precipitation Evapotranspiration Index (SPEI). The atlas provide glimpse of past droughts in summer monsoon, winter monsoon, calender year, and water year during 1901-2020.",
+        Tags:['WebGIS Development', 'Full Stack Web Development',"React JS", "Leaflet JS"],
+        Image:drought_atlas_1,
+        CarouselImages:[drought_atlas_1, drought_atlas_2,drought_atlas_3],
+        Link:"https://indiadroughtatlas.in/",
+        Technology:['React JS', 'Leaflet JS']
+
+    },
     {
         ProjectName:"Combat Sports Analytics Dashboard",
         TagLine:"A dashboard that enables users to upload sports video footage, select specific segments of interest, and generate 3D interactive animations of the selected video segment.",
