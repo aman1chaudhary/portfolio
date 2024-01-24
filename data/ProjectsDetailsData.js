@@ -142,7 +142,7 @@ export const ProjectsDetailsData =[
         TagLine:"Developed a responsive WebGIS dashboard displaying India’s natural hazards data (drought, flood, earthquake, cyclone, epidemics, lightning, etc.) on interactive maps.",
         Description:"A responsive WebGIS dashboard displaying India’s natural hazards data (drought, flood, earthquake, cyclone, epidemics, lightning, etc.) on interactive maps. Implemented map download functionality to enhance data accessibility for users. Designed and implemented an engaging dynamic quiz feature.",
         Tags:['Web Development', 'WebGIS Development',"React JS",],
-        Image:India_Natural_Hazards_1,
+        Image:India_Natural_Hazards_2,
         CarouselImages:[India_Natural_Hazards_1, India_Natural_Hazards_2],
         Link:"https://geospatial-smart-thinkers.github.io/natural-hazards/",
         Technology:['React JS', 'Flask',]
@@ -153,7 +153,7 @@ export const ProjectsDetailsData =[
         TagLine:"An open-source WebGIS Dashboard for designing and customizing choropleth maps.",
         Description:"An open-source WebGIS Dashboard for designing and customizing choropleth maps.",
         Tags:['Web Development', 'WebGIS Development',"React JS",],
-        Image:Choropleth_Map_Generator_1,
+        Image:Choropleth_Map_Generator_2,
         CarouselImages:[Choropleth_Map_Generator_1, Choropleth_Map_Generator_2],
         Link:"https://geospatial-smart-thinkers.github.io/choropleth-map/",
         Technology:['React JS', 'Flask',]
