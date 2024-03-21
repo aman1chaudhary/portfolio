@@ -57,7 +57,7 @@ const ContactForm = () => {
         <div className="section-full content-inner-2 bg-white contact-form-bx" style={{ backgroundImage: "url(" + bg16 + ")", backgroundSize: "100%" }}>
             <div className="container">
                 <div className="section-head text-center">
-                    <h2 className="text-uppercase"><span className="font-weight-300">Contact </span> us</h2>
+                    <h2 className="text-uppercase"><span className="font-weight-300">Contact </span> me</h2>
                 </div>
                 <div className="dezPlaceAni">
                     <div className="dzFormMsg"></div>

@@ -52,21 +52,21 @@ const ResumePage = () => {
                                                         <li>
                                                             <p><b>Indian Institute of Technology Gandhinagar</b><br />
                                                                 Senior Undergraduate | 2020 - 2024 <br />
-                                                                Discipline of Civil Engineering with Minors in CSE
+                                                                Discipline of Civil Engineering with Minors in Computer Science and Engineering
                                                             </p>
                                                         </li>
 
                                                         <li>
                                                             <p><b> Boston Public School, Agra</b><br />
                                                                 2019 — 2020<br />
-                                                                Class XII | CBSE Board | 92.4%
+                                                                Class XII | CBSE Board 
                                                             </p>
                                                         </li>
 
                                                         <li>
                                                             <p><b>D.E.I. R.E.I. Intermediate College, Agra</b><br />
                                                                 2017— 2018<br />
-                                                                Class X | 9.89/10
+                                                                Class X 
                                                             </p>
                                                         </li>
 
