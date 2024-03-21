@@ -30,7 +30,7 @@ const HomePage = () => {
                         <div className="home-bnr-content">
                             <h4 className="sub-title">Hi, I&apos;m</h4>
                             <h2 className="dz-title">Aman Chaudhary</h2>
-                            <h4 className="sub-title">a Full Stack & WebGIS Developer</h4>
+                            <h4 className="sub-title">a Full Stack WebGIS Developer</h4>
                             <div className="home-bnr-btns">
                                 <Link
                                     href="#"
@@ -82,8 +82,11 @@ const HomePage = () => {
                                             </div>
                                         </div> */}
                                     {/* <h3 className="m-b10">The Project</h3> */}
-                                    <p style={{ fontSize: "18px" }}>I am a skilled Full Stack Developer with a specialization in front-end technologies like ReactJS and NextJS, coupled with proficiency in back-end development using Flask and NodeJS. I excel in crafting seamless user experiences, leveraging database management expertise in MongoDB and PostgreSQL. My portfolio showcases innovative web applications that harmonize creativity and technical expertise to deliver exceptional results. 
-                                    
+                                    <p style={{ fontSize: "18px" }}>I am a skilled Full Stack WebGIS Developer with a specialization in front-end technologies like ReactJS and NextJS, coupled with proficiency in back-end development using Flask and NodeJS. I excel in crafting seamless user experiences, leveraging database management expertise in MongoDB and PostgreSQL. 
+<br/>
+                                    Additionally, I have a deep understanding of GIS concepts and software like ArcGIS and QGIS, as well as experience with GIS libraries like Leaflet JS, OpenLayers,  Mapbox, and Esri ArcGIS JavaScript API. I am adept at creating and integrating GIS data into web applications and working with a variety of GIS data formats.
+
+                                    My portfolio showcases innovative web applications that harmonize creativity and technical expertise to deliver exceptional results. 
                                     
                                     </p>
                                 </div>

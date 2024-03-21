@@ -80,43 +80,127 @@ const ResumePage = () => {
                                             <div className="line-right-box">
                                                 <div className="line-content-box ">
                                                     <h4 className="min-title text-primary m-t0 m-b10">
-                                                        Internships And Projects
+                                                        Experience
                                                     </h4>
                                                     <ul className="font-16">
-                                                        <li>
-                                                            <p><b>Full Stack Web Developer | Kentrix | Mumbai | Summer Internship</b><br />
-                                                                Throughout my internship, I had the opportunity to work on three exciting dashboard projects, each offering unique functionalities to enhance user experiences and data-driven decision-making:
-                                                                </p>  
-                                                            <ol>
-                                                                <li> Persona 360 Dashboard: This dashboard was designed to enable users to create Meta campaigns with enhanced niche segmentation. By leveraging over 100+ filters, such as Income, demographic behavior, NCCS, and more, users gained valuable insights into their target audience. My role in this project involved crafting the frontend using React JS and developing the backend with Flask.</li>
-                                                                <li> Mahindra Dashboard: The Mahindra Dashboard allows users to input sales data, generating cohort reports and feature importance analyses using machine learning models and geospatial analysis. The incorporation of geolocation data enriched the visual representation of insights. I played a significant role in building this dashboard, utilizing React JS for the frontend, Flask for the backend, and PostgreSQL for database management. Additionally, I implemented an admin interface within the dashboard, empowering administrators to manage users effectively.</li>
-                                                                <li>Karma Dashboard/Software: The main objective of the Karma Dashboard/Software was to fetch data for a specific address from Kentrix API. This versatile dashboard enabled users to fetch data for a single address or perform batch operations using CSV files. Upon retrieving the data, users could download the output as a CSV file. To ensure smooth accessibility, I developed both .dmg and .exe setups for Mac and Windows users, respectively. The Karma Dashboard was built using React JS as the frontend framework and Electron JS as the software framework.</li>
-                                                            </ol>
-                                                            
 
-
-                                                        </li>
                                                         <li>
-                                                            <p><b>WebGIS Developer | Summer Research Internship Program | Water & Climate Lab, IIT Gandhinagar</b><br />
-                                                            <ol>
-                                                                <li>
-                                                                Developed and hosted the India Drought Monitor that shows India’s real-time drought conditions and forecast. The Geoportal fetches data from Google Drive and updates weekly automatically. The monitor represents the geospatial data on interactive and user-friendly maps. The map uses five classifications: abnormally dry (D0), showing areas that may be going into or are coming out of drought, and four levels of drought: moderate (D1), severe (D2), extreme (D3), and exceptional (D4).
-                                                                </li>
-                                                                <li>
-                                                                Developed the Geoportal of Indian Dams (GeoID) with the database of more than 5000 dams in India, including their catchment characteristics, LULC analysis, and flood risk assessment using Geographic Information System (GIS), Google earth engine.
-                                                                </li>
-                                                            </ol>
-                                                                
+                                                            <p><b>WebGIS Developer | India Flood Atlas | Water & Climate Lab, IIT Gandhinagar</b><br />
+                                                                <ul>
+                                                                    <li>
+                                                                        Developed interactive India Flood Atlas Dashboard. The dashboard is based on the gridded simulations of flood
+                                                                        dynamics. The atlas provides a glimpse of past annual maximum flooded area during 1901-2020
+                                                                    </li>
+
+                                                                </ul>
+
                                                             </p>
                                                         </li>
-                                                        
 
 
-                                                
+                                                        <li>
+                                                            <p><b>WebGIS Developer | Drought Atlas of India | Water & Climate Lab, IIT Gandhinagar</b><br />
+                                                                <ul>
+                                                                    <li>
+                                                                        Developed interactive drought atlas dashboard of India. This dashboard is based on the high-resolution Standardised Precipitation Evapotranspiration Index (SPEI). The atlas provide glimpse of past droughts in summer monsoon, winter monsoon, calender year, and water year during 1901-2020.
+                                                                    </li>
+                                                                    <li>
+                                                                        The dashboard provides comprehensive information on drought occurrence, impacts, and risks in India.
+                                                                    </li>
+                                                                </ul>
+
+                                                            </p>
+                                                        </li>
+
+                                                        <li>
+                                                            <p><b>WebGIS Developer | India Drought Monitor | Water & Climate Lab, IIT Gandhinagar</b><br />
+                                                                <ul>
+                                                                    <li>
+                                                                        Developed India Drought Monitor, a real-time drought monitoring and forecasting web application that provides valuable insights into drought conditions in India and updates on a weekly basis.
+                                                                    </li>
+
+                                                                </ul>
+
+                                                            </p>
+                                                        </li>
+
+                                                        <li>
+                                                            <p><b>WebGIS Developer | Geoportal of Indian Dams | Water & Climate Lab, IIT Gandhinagar</b><br />
+                                                                <ul>
+
+                                                                    <li>
+                                                                        Developed the Geoportal of Indian Dams (GeoID) with the database of more than 5400 dams across India.
+
+                                                                    </li>
+                                                                    <li>
+                                                                        Implemented features such as catchment characteristics, LULC analysis, and flood risk assessment, to provide
+                                                                        valuable insights and data of Indian dams.
+                                                                    </li>
+                                                                </ul>
+
+                                                            </p>
+                                                        </li>
+
+                                                        <li>
+                                                            <p><b>Full Stack WebGIS Developer | Kentrix, Mumbai</b><br />
+                                                                <ul>
+
+                                                                    <li>
+                                                                        Developed a sophisticated WebGIS dashboard catering to Mahindra & Mahindra Limited. This platform enables users to input sales data, including latitude, longitude, and variant parameters. Users can select models such as Random Forest Classifier and XGB Classifier and specify the variant for model execution.
+
+                                                                    </li>
+                                                                    <li>
+                                                                        Through extensive Geospatial Analysis, the dashboard generates cohort reports and conducts feature importance analyses. The integration of geolocation data enhances the visual representation of insights, providing a compre- hensive overview of sales patterns.
+                                                                    </li>
+                                                                    <li>
+                                                                        An admin interface has been implemented within the dashboard to streamline user management. This feature empowers administrators to oversee and manage user interactions efficiently.
+                                                                    </li>
+
+                                                                </ul>
+
+                                                            </p>
+                                                        </li>
+
+
+
+                                                        <li>
+                                                            <p><b>WebGIS Developer | AgroCast Analytics, Gandhinagar</b><br />
+                                                                <ul>
+                                                                    <li>
+                                                                        Developed a GIS dashboard featuring an admin interface for data management. The admin can upload customized
+                                                                        geospatial data tailored to user specifications, including Water Level, Water Depth, Contours, Site Boundaries,
+                                                                        and Drone Images like Ortho, DSM, DTM, etc.
+
+                                                                    </li>
+                                                                    <li>
+                                                                        On the user side, the interactive dashboard allows visualization of this dataset on dynamic maps. Users gain
+                                                                        valuable insights into their land, facilitating informed decision-making in various sectors.
+                                                                    </li>
+                                                                </ul>
+                                                            </p>
+                                                        </li>
+
+
+
+                                                    </ul>
+                                                </div>
+                                                <div className="line-num bg-primary-dark"></div>
+                                            </div>
+                                        </div>
+
+
+                                        {/* <div className="line-right clearfix m-b30">
+                                            <div className="line-right-box">
+                                                <div className="line-content-box ">
+                                                    <h4 className="min-title text-primary m-t0 m-b10">
+                                                        Projects
+                                                    </h4>
+                                                    <ul className="font-16">
+
 
                                                         <li>
                                                             <p><b>Web Developer, Water & Climate Lab, IIT Gandhinagar</b><br />
-                                                            Developed the official website of Water & Climate lab, Indian Institute of Technology Gandhinagar using technologies such as HTML, CSS, and React JS. The website features several tools, including a research database, current people and alumni database, and publication search function. The website played a crucial role in promoting the lab&apos;s research and increasing its visibility.
+                                                                Developed the official website of Water & Climate lab, Indian Institute of Technology Gandhinagar using technologies such as HTML, CSS, and React JS. The website features several tools, including a research database, current people and alumni database, and publication search function. The website played a crucial role in promoting the lab&apos;s research and increasing its visibility.
                                                             </p>
                                                         </li>
                                                         <li>
@@ -135,10 +219,10 @@ const ResumePage = () => {
                                                 </div>
                                                 <div className="line-num bg-primary-dark"></div>
                                             </div>
-                                        </div>
+                                        </div> */}
 
 
-                                        <div className="line-right clearfix m-b30">
+                                        {/* <div className="line-right clearfix m-b30">
                                             <div className="line-right-box">
                                                 <div className="line-content-box ">
                                                     <h4 className="min-title text-primary m-t0 m-b10">
@@ -175,7 +259,7 @@ const ResumePage = () => {
                                                 </div>
                                                 <div className="line-num bg-primary-dark"></div>
                                             </div>
-                                        </div>
+                                        </div> */}
 
                                         <div className="line-right clearfix m-b30">
                                             <div className="line-right-box">
@@ -207,7 +291,7 @@ const ResumePage = () => {
                                                         </li>
                                                         <li>
                                                             <p><b>Libraries</b><br />
-                                                                jQuery, Leaflet,ArcGIS API for JavaScript, PlotlyJS, Openlayer
+                                                                jQuery, Leaflet JS, Mapbox, ArcGIS API for JavaScript, PlotlyJS, Openlayer
                                                             </p>
                                                         </li>
                                                         <li>
@@ -217,12 +301,12 @@ const ResumePage = () => {
                                                         </li>
                                                         <li>
                                                             <p><b>Softwares</b><br />
-                                                                QGIS, Google earth engine, MATLAB, Adobe Premier pro, Adobe after effects, Filmora, Figma, Advanced Excel
+                                                                QGIS, Google earth engine, MATLAB, Filmora, Figma, Advanced Excel
                                                             </p>
                                                         </li>
                                                         <li>
                                                             <p><b>Version Control System</b><br />
-                                                                Git and GitHub
+                                                                Git, GitHub, GitLab
                                                             </p>
                                                         </li>
                                                         <li>
@@ -244,14 +328,20 @@ const ResumePage = () => {
                                                         Certifications
                                                     </h4>
                                                     <ul className="font-16">
+                                                    <li>
+                                                            <p><b>Responsive Website Development and Design Specialization</b><br />
+                                                            Coursera
+                                                            </p>
+                                                        </li>
+
                                                         <li>
                                                             <p><b>The Complete 2022 Web Development Bootcamp</b><br />
                                                                 Udemy
                                                             </p>
                                                         </li>
                                                         <li>
-                                                            <p><b>Responsive Website Development And Design Specialization</b><br />
-                                                                Coursera
+                                                            <p><b>Going Places with Spatial Analysis</b><br />
+                                                            ESRI
                                                             </p>
                                                         </li>
                                                         <li>
@@ -259,6 +349,9 @@ const ResumePage = () => {
                                                                 ESRI
                                                             </p>
                                                         </li>
+
+                                                        
+
 
                                                     </ul>
                                                 </div>

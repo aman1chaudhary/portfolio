@@ -1,6 +1,13 @@
-import geoid from '../public/images/projects/geoid.jpg';
+import geoid_1 from '../public/images/projects/geoid_1.jpg';
+import geoid_2 from '../public/images/projects/geoid_2.jpg';
+import geoid_3 from '../public/images/projects/geoid_3.jpg';
+import geoid_4 from '../public/images/projects/geoid_4.jpg';
+import geoid_5 from '../public/images/projects/geoid_5.jpg';
 import hallabol from '../public/images/projects/hallabol.jpg';
-import india_drought_monitor from '../public/images/projects/india_drought_monitor.jpg';
+import india_drought_monitor_1 from '../public/images/projects/india_drought_monitor_1.jpg';
+import india_drought_monitor_2 from '../public/images/projects/india_drought_monitor_2.jpg';
+import india_drought_monitor_3 from '../public/images/projects/india_drought_monitor_3.jpg';
+import india_drought_monitor_4 from '../public/images/projects/india_drought_monitor_4.jpg';
 import wcl_iitgn from '../public/images/projects/wcl_iitgn.jpg';
 import sports_iitgn from '../public/images/projects/sports_iitgn.jpg';
 import google_clone from '../public/images/projects/google_clone.jpg';
@@ -29,11 +36,26 @@ import Agrocast_2 from '../public/images/projects/Agrocast_2.jpg';
 import drought_atlas_1 from '../public/images/projects/drought_atlas_1.jpg';
 import drought_atlas_2 from '../public/images/projects/drought_atlas_2.jpg';
 import drought_atlas_3 from '../public/images/projects/drought_atlas_3.jpg';
+import india_flood_atlas_1 from '../public/images/projects/india_flood_atlas_1.jpg';
+import india_flood_atlas_2 from '../public/images/projects/india_flood_atlas_2.jpg';
+import india_flood_atlas_3 from '../public/images/projects/india_flood_atlas_3.jpg';
+import india_flood_atlas_4 from '../public/images/projects/india_flood_atlas_4.jpg';
 
 
 
 export const ProjectsDetailsData =[
 
+    {
+        ProjectName:"India Flood Atlas",
+        TagLine:"The flood atlas of India is based on the gridded simulations of flood dynamics. The atlas provides a glimpse of past annual maximum flooded area during 1901-2020.",
+        Description:"The flood atlas of India is based on the gridded simulations of flood dynamics. The atlas provides a glimpse of past annual maximum flooded area during 1901-2020.",
+        Tags:['WebGIS Development', 'Full Stack Web Development',"React JS", "Leaflet JS"],
+        Image:india_flood_atlas_1,
+        CarouselImages:[india_flood_atlas_1, india_flood_atlas_2,india_flood_atlas_3,india_flood_atlas_4],
+        Link:"https://indiafloodatlas.in/",
+        Technology:['React JS', 'Leaflet JS']
+
+    },
     {
         ProjectName:"Drought Atlas of India",
         TagLine:"Drought atlas of India is based on the high-resolution Standardised Precipitation Evapotranspiration Index (SPEI). The atlas provide glimpse of past droughts in summer monsoon, winter monsoon, calender year, and water year during 1901-2020.",
@@ -119,8 +141,8 @@ export const ProjectsDetailsData =[
         TagLine:"A real-time drought monitoring and forecasting web application",
         Description:"A real-time drought monitoring and forecasting web application that provides valuable insights into drought conditions in India and updates on a weekly basis.",
         Tags:['Web Development', 'WebGIS Development',"React JS"],
-        Image:india_drought_monitor,
-        CarouselImages:[india_drought_monitor],
+        Image:india_drought_monitor_1,india_drought_monitor_2,india_drought_monitor_3,india_drought_monitor_4,
+        CarouselImages:[india_drought_monitor_1],
         Link:"https://indiadroughtmonitor.in/",
         Technology:['React JS', 'Leaflet JS',]
 
@@ -130,8 +152,8 @@ export const ProjectsDetailsData =[
         TagLine:"Interactive Database of over 5400 dams across India",
         Description:"A WebGIS application that contains database of over 5400 dams across India. Implemented features such as catchment characteristics, LULC analysis, and flood risk assessment, to provide valuable insights and data of Indian dams to the users.",
         Tags:['Web Development', 'WebGIS Development',"React JS",],
-        Image:geoid,
-        CarouselImages:[geoid],
+        Image:geoid_1,
+        CarouselImages:[geoid_1,geoid_2,geoid_3,geoid_4,geoid_5],
         Link:"https://geoportalofindiandams.github.io/GeoID/",
         Technology:['React JS', 'Leaflet JS',]
 
