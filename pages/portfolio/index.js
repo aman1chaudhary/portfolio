@@ -89,7 +89,7 @@ function PortfolioItem() {
 											<div className="overlay-bx">
 												<div className="overlay-icon text-white p-lr10">
 													<h5>{project.ProjectName}</h5>
-													<p className="m-b10">{project.TagLine}</p>
+													{/* <p className="m-b10">{project.TagLine}</p> */}
 													{project.Link && (
 														<a href={project.Link} target="blank"><i className="ti-arrow-top-right icon-bx-xs"></i></a>
 													)}

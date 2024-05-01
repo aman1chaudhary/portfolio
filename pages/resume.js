@@ -51,12 +51,12 @@ const ResumePage = () => {
                                                     <ul className="font-16">
                                                         <li>
                                                             <p><b>Indian Institute of Technology Gandhinagar</b><br />
-                                                                Senior Undergraduate | 2020 - 2024 <br />
-                                                                Discipline of Civil Engineering with Minors in Computer Science and Engineering
+                                                                Bachelor of Technology | 2020 - 2024 <br />
+                                                                Major in Civil Engineering with Minors in Computer Science and Engineering
                                                             </p>
                                                         </li>
 
-                                                        <li>
+                                                        {/* <li>
                                                             <p><b> Boston Public School, Agra</b><br />
                                                                 2019 — 2020<br />
                                                                 Class XII | CBSE Board 
@@ -68,7 +68,7 @@ const ResumePage = () => {
                                                                 2017— 2018<br />
                                                                 Class X 
                                                             </p>
-                                                        </li>
+                                                        </li> */}
 
                                                     </ul>
                                                 </div>
@@ -84,101 +84,96 @@ const ResumePage = () => {
                                                     </h4>
                                                     <ul className="font-16">
 
-                                                        <li>
-                                                            <p><b>WebGIS Developer | India Flood Atlas | Water & Climate Lab, IIT Gandhinagar</b><br />
-                                                                <ul>
-                                                                    <li>
-                                                                        Developed interactive India Flood Atlas Dashboard. The dashboard is based on the gridded simulations of flood
-                                                                        dynamics. The atlas provides a glimpse of past annual maximum flooded area during 1901-2020
-                                                                    </li>
+                                                        <li className="m-b20">
+                                                            <b>Full Stack WebGIS Developer | World Bank Group | Feb 2024 - Present</b><br />
+                                                            <ul>
+                                                                <li>
+                                                                Developing innovative WebGIS digital solutions for monitoring and managing water resources at a national scale, utilizing remote sensing and GIS engineering techniques within the Water Informatics team at the World Bank Group.
 
-                                                                </ul>
+                                                                </li>
 
-                                                            </p>
+                                                            </ul>
+
+                                                        </li>
+
+                                                        <li className="m-b20">
+                                                            <b>WebGIS Developer | AgroCast Analytics, Gandhinagar | Aug 2023 - March 2024</b><br />
+                                                            <ul>
+                                                                <li>
+                                                                    Developed a GIS dashboard featuring an admin interface for data management. The admin can upload customized
+                                                                    geospatial data tailored to user specifications, including Water Level, Water Depth, Contours, Site Boundaries,
+                                                                    and Drone Images like Ortho, DSM, DTM, etc.
+
+                                                                </li>
+                                                                <li>
+                                                                    On the user side, the interactive dashboard allows visualization of this dataset on dynamic maps. Users gain
+                                                                    valuable insights into their land, facilitating informed decision-making in various sectors.
+                                                                </li>
+                                                            </ul>
+
+                                                        </li>
+
+                                                        <li className="m-b20">
+                                                            <b>Full Stack WebGIS Developer | Kentrix, Mumbai | May 2023-Aug 2023</b><br />
+                                                            <ul>
+
+                                                                <li>
+                                                                    Developed a sophisticated WebGIS dashboard catering to Mahindra & Mahindra Limited. This platform enables users to input sales data, including latitude, longitude, and variant parameters. Users can select models such as Random Forest Classifier and XGB Classifier and specify the variant for model execution.
+
+                                                                </li>
+                                                                <li>
+                                                                    Through extensive Geospatial Analysis, the dashboard generates cohort reports and conducts feature importance analyses. The integration of geolocation data enhances the visual representation of insights, providing a compre- hensive overview of sales patterns.
+                                                                </li>
+                                                                <li>
+                                                                    An admin interface has been implemented within the dashboard to streamline user management. This feature empowers administrators to oversee and manage user interactions efficiently.
+                                                                </li>
+
+                                                            </ul>
+
+
                                                         </li>
 
 
-                                                        <li>
-                                                            <p><b>WebGIS Developer | Drought Atlas of India | Water & Climate Lab, IIT Gandhinagar</b><br />
-                                                                <ul>
-                                                                    <li>
-                                                                        Developed interactive drought atlas dashboard of India. This dashboard is based on the high-resolution Standardised Precipitation Evapotranspiration Index (SPEI). The atlas provide glimpse of past droughts in summer monsoon, winter monsoon, calender year, and water year during 1901-2020.
-                                                                    </li>
-                                                                    <li>
-                                                                        The dashboard provides comprehensive information on drought occurrence, impacts, and risks in India.
-                                                                    </li>
-                                                                </ul>
+                                                        <li className="m-b20">
+                                                            <b>WebGIS Developer | Water & Climate Lab, IIT Gandhinagar | Oct 2022 - March 2024 </b><br />
+                                                            Developed various web-based GIS applications including:
+                                                            <ul>
+                                                                <li>
+                                                                    <b>India Flood Atlas: </b>
+                                                                    Developed interactive India Flood Atlas Dashboard. The dashboard is based on the gridded simulations of flood
+                                                                    dynamics. The atlas provides a glimpse of past annual maximum flooded area during 1901-2020
+                                                                </li>
+                                                                <li>
+                                                                    <b>Drought Atlas of India: </b>
+                                                                    Developed interactive drought atlas dashboard of India.
+                                                                    This dashboard is based on the high-resolution Standardised Precipitation Evapotranspiration Index (SPEI).
+                                                                    The atlas provide glimpse of past droughts in summer monsoon, winter monsoon, calender year, and water year during 1901-2020.
+                                                                    The dashboard provides comprehensive information on drought occurrence, impacts, and risks in India.
+                                                                </li>
+                                                                <li>
+                                                                    <b>India Drought Monitor: </b>
+                                                                    Developed India Drought Monitor, a real-time drought monitoring and forecasting web application that provides valuable insights into drought conditions in India and updates on a weekly basis.
+                                                                </li>
+                                                                <li>
+                                                                    <b>Geoportal of Indian Dams: </b>
+                                                                    Developed the Geoportal of Indian Dams (GeoID) with the database of more than 5400 dams across India. Implemented features such as catchment characteristics, LULC analysis, and flood risk assessment, to provide
+                                                                    valuable insights and data of Indian dams.
+                                                                </li>
 
-                                                            </p>
-                                                        </li>
 
-                                                        <li>
-                                                            <p><b>WebGIS Developer | India Drought Monitor | Water & Climate Lab, IIT Gandhinagar</b><br />
-                                                                <ul>
-                                                                    <li>
-                                                                        Developed India Drought Monitor, a real-time drought monitoring and forecasting web application that provides valuable insights into drought conditions in India and updates on a weekly basis.
-                                                                    </li>
+                                                            </ul>
 
-                                                                </ul>
 
-                                                            </p>
-                                                        </li>
-
-                                                        <li>
-                                                            <p><b>WebGIS Developer | Geoportal of Indian Dams | Water & Climate Lab, IIT Gandhinagar</b><br />
-                                                                <ul>
-
-                                                                    <li>
-                                                                        Developed the Geoportal of Indian Dams (GeoID) with the database of more than 5400 dams across India.
-
-                                                                    </li>
-                                                                    <li>
-                                                                        Implemented features such as catchment characteristics, LULC analysis, and flood risk assessment, to provide
-                                                                        valuable insights and data of Indian dams.
-                                                                    </li>
-                                                                </ul>
-
-                                                            </p>
-                                                        </li>
-
-                                                        <li>
-                                                            <p><b>Full Stack WebGIS Developer | Kentrix, Mumbai</b><br />
-                                                                <ul>
-
-                                                                    <li>
-                                                                        Developed a sophisticated WebGIS dashboard catering to Mahindra & Mahindra Limited. This platform enables users to input sales data, including latitude, longitude, and variant parameters. Users can select models such as Random Forest Classifier and XGB Classifier and specify the variant for model execution.
-
-                                                                    </li>
-                                                                    <li>
-                                                                        Through extensive Geospatial Analysis, the dashboard generates cohort reports and conducts feature importance analyses. The integration of geolocation data enhances the visual representation of insights, providing a compre- hensive overview of sales patterns.
-                                                                    </li>
-                                                                    <li>
-                                                                        An admin interface has been implemented within the dashboard to streamline user management. This feature empowers administrators to oversee and manage user interactions efficiently.
-                                                                    </li>
-
-                                                                </ul>
-
-                                                            </p>
                                                         </li>
 
 
 
-                                                        <li>
-                                                            <p><b>WebGIS Developer | AgroCast Analytics, Gandhinagar</b><br />
-                                                                <ul>
-                                                                    <li>
-                                                                        Developed a GIS dashboard featuring an admin interface for data management. The admin can upload customized
-                                                                        geospatial data tailored to user specifications, including Water Level, Water Depth, Contours, Site Boundaries,
-                                                                        and Drone Images like Ortho, DSM, DTM, etc.
 
-                                                                    </li>
-                                                                    <li>
-                                                                        On the user side, the interactive dashboard allows visualization of this dataset on dynamic maps. Users gain
-                                                                        valuable insights into their land, facilitating informed decision-making in various sectors.
-                                                                    </li>
-                                                                </ul>
-                                                            </p>
-                                                        </li>
+
+
+
+
+
 
 
 
@@ -276,34 +271,44 @@ const ResumePage = () => {
 
                                                         <li>
                                                             <p><b>Front-End Development</b><br />
-                                                                ReactJS, NextJS
+                                                            HTML, CSS, Bootstrap, ReactJS, NextJS
                                                             </p>
                                                         </li>
                                                         <li>
                                                             <p><b>Back-End Development</b><br />
-                                                                Flask, NodeJS, RESTful API
+                                                            Django, Flask, NodeJS, RESTful API
                                                             </p>
                                                         </li>
                                                         <li>
                                                             <p><b>Databases</b><br />
-                                                                MongoDB, Firebase, PostgreSQL
+                                                                MongoDB, Firebase, PostgreSQL, Post GIS
                                                             </p>
                                                         </li>
                                                         <li>
                                                             <p><b>Libraries</b><br />
-                                                                jQuery, Leaflet JS, Mapbox, ArcGIS API for JavaScript, PlotlyJS, Openlayer
+                                                                jQuery, Leaflet JS, Openlayer, Mapbox, Cesium JS, ArcGIS API for JavaScript, Google map API, PlotlyJS
                                                             </p>
                                                         </li>
+                                                        
                                                         <li>
+                                                            <p><b>Geo Tools</b><br />
+                                                                QGIS, ArcGIS, Google Earth Pro, Google earth engine, GRASS GIS, GDAL, GeoServer
+                                                            </p>
+                                                        </li>
+
+                                                        {/* <li>
                                                             <p><b>Other Techs</b><br />
-                                                                HTML, CSS, Bootstrap, WordPress, Wix, MERN Stack Enthusiast
+                                                                 WordPress, Wix, 
                                                             </p>
-                                                        </li>
+                                                        </li> */}
+
                                                         <li>
-                                                            <p><b>Softwares</b><br />
-                                                                QGIS, Google earth engine, MATLAB, Filmora, Figma, Advanced Excel
+                                                            <p><b>Other Softwares</b><br />
+                                                                MATLAB, Filmora, Figma, Advanced Excel, Jupyter Notebook
                                                             </p>
                                                         </li>
+
+                                                        
                                                         <li>
                                                             <p><b>Version Control System</b><br />
                                                                 Git, GitHub, GitLab
@@ -328,9 +333,9 @@ const ResumePage = () => {
                                                         Certifications
                                                     </h4>
                                                     <ul className="font-16">
-                                                    <li>
+                                                        <li>
                                                             <p><b>Responsive Website Development and Design Specialization</b><br />
-                                                            Coursera
+                                                                Coursera
                                                             </p>
                                                         </li>
 
@@ -341,7 +346,7 @@ const ResumePage = () => {
                                                         </li>
                                                         <li>
                                                             <p><b>Going Places with Spatial Analysis</b><br />
-                                                            ESRI
+                                                                ESRI
                                                             </p>
                                                         </li>
                                                         <li>
@@ -350,7 +355,7 @@ const ResumePage = () => {
                                                             </p>
                                                         </li>
 
-                                                        
+
 
 
                                                     </ul>

@@ -1,15 +1,22 @@
 import React, { useRef } from 'react';
 import ReviewsCarousel from '../components/ReviewsCarousel';
 
-import bgimg from '../public/images/background/main-background.jpg';
+import bgimg from '../public/images/background/bg4.jpeg';
 import about1 from '../public/images/aman.jpg';
-import bg1 from '../public/images/background/bg1.jpg';
+import bg1 from '../public/images/background/bg4.jpeg';
+import bg2 from '../public/images/background/bg4.jpeg';
 import { ProjectsDetailsData } from '../data/ProjectsDetailsData';
 import ContactForm from '../components/ContactForm';
 import Link from 'next/link';
 import Image from 'next/image';
 import Head from 'next/head';
 
+import frontend from "../public/images/skills/frontend.jpg"
+import backend from "../public/images/skills/backend.jpg"
+import database from "../public/images/skills/database.jpg"
+import mapping from "../public/images/skills/mapping.jpg"
+import geotech from "../public/images/skills/geotech.jpg"
+import othertech from "../public/images/skills/othertech.jpg"
 
 
 const HomePage = () => {
@@ -57,7 +64,7 @@ const HomePage = () => {
                         <div className="container">
                             <div className="row">
                                 <div className="col-md-12 col-lg-6">
-                                    <h2 className="font-weight-400">Hi, I’m Aman <br /><p className="font-weight-300" style={{ fontSize: "20px" }}> Senior Undergraduate | IIT Gandhinagar</p></h2>
+                                    <h2 className="font-weight-400">Hi, I’m Aman <br /><p className="font-weight-300" style={{ fontSize: "20px" }}> Bachelor of Technology | IIT Gandhinagar</p></h2>
                                     {/* <div className="progress-section">
                                             <div className="progress-bx">
                                                 <h4>Hard Work</h4>
@@ -82,12 +89,12 @@ const HomePage = () => {
                                             </div>
                                         </div> */}
                                     {/* <h3 className="m-b10">The Project</h3> */}
-                                    <p style={{ fontSize: "18px" }}>I am a skilled Full Stack WebGIS Developer with a specialization in front-end technologies like ReactJS and NextJS, coupled with proficiency in back-end development using Flask and NodeJS. I excel in crafting seamless user experiences, leveraging database management expertise in MongoDB and PostgreSQL. 
-<br/>
-                                    Additionally, I have a deep understanding of GIS concepts and software like ArcGIS and QGIS, as well as experience with GIS libraries like Leaflet JS, OpenLayers,  Mapbox, and Esri ArcGIS JavaScript API. I am adept at creating and integrating GIS data into web applications and working with a variety of GIS data formats.
+                                    <p style={{ fontSize: "18px" }}>I am a skilled Full Stack WebGIS Developer with a specialization in front-end technologies like ReactJS and NextJS, coupled with proficiency in back-end development using Django, Flask and NodeJS. I excel in crafting seamless user experiences, leveraging database management expertise in MongoDB and PostgreSQL.
+                                        <br />
+                                        Additionally, I have a deep understanding of GIS concepts and software like ArcGIS and QGIS, as well as experience with GIS libraries like Leaflet JS, OpenLayers,  Mapbox, and Esri ArcGIS JavaScript API. I am adept at creating and integrating GIS data into web applications and working with a variety of GIS data formats.
 
-                                    My portfolio showcases innovative web applications that harmonize creativity and technical expertise to deliver exceptional results. 
-                                    
+                                        My portfolio showcases innovative web applications that harmonize creativity and technical expertise to deliver exceptional results.
+
                                     </p>
                                 </div>
                                 <div className="col-md-12 col-lg-6 d-flex ">
@@ -100,7 +107,7 @@ const HomePage = () => {
                     </div>
 
 
-                    <div className="section-full content-inner-1 overlay-primary about-service bg-img-fix" style={{ backgroundImage: "url(" + bg1.src + ")" }}>
+                    <div className="section-full content-inner-1 overlay-primary about-service bg-img-fix" style={{ backgroundImage: "url(" + bg2.src + ")" }}>
                         <div className="container">
                             <div className="section-head text-white text-center">
                                 <h2 className="box-title m-tb0 max-w800 m-auto">My Expertise<span className="bg-primary"></span></h2>
@@ -110,35 +117,83 @@ const HomePage = () => {
                         <div className="container">
                             <div className="row text-white">
 
-                                <div className="col-lg-4 col-md-4 col-sm-6 m-b30" >
+                                <div className="col-lg-4 col-md-6 col-sm-6 m-b30" >
                                     <div className="icon-bx-wraper bx-style-1 p-a30 center">
-                                        <div className="icon-lg text-white m-b20"> <Link href={"#"} className="icon-cell text-white"><i className="flaticon-devices" /></Link> </div>
+                                        <div className="skill_logo m-b20">
+                                            <Image src={frontend} title='Frontend Development' alt='tech' />
+                                        </div>
                                         <div className="icon-content">
                                             <h5 className="dlab-tilte">Frontend Development</h5>
-                                            <p>React JS, Next JS</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="col-lg-4 col-md-6 col-sm-6 m-b30" >
+                                    <div className="icon-bx-wraper bx-style-1 p-a30 center">
+                                        <div className="skill_logo m-b20">
+                                            <Image src={mapping} title='Frontend Mapping' alt='tech' />
+                                        </div>
+                                        <div className="icon-content">
+                                            <h5 className="dlab-tilte">Frontend Mapping</h5>
                                         </div>
                                     </div>
                                 </div>
 
-                                <div className="col-lg-4 col-md-4 col-sm-6 m-b30">
+                                <div className="col-lg-4 col-md-6 col-sm-6 m-b30" >
                                     <div className="icon-bx-wraper bx-style-1 p-a30 center">
-                                        <div className="icon-lg text-white m-b20"> <Link href={"#"} className="icon-cell text-white"><i className="flaticon-development" /></Link> </div>
+                                        <div className="skill_logo m-b20">
+                                            <Image src={backend} title='Backend Development' alt='tech' />
+                                        </div>
                                         <div className="icon-content">
                                             <h5 className="dlab-tilte">Backend Development</h5>
-                                            <p>Node JS, Flask, Rest API, Mongo DB, PostgreSQL</p>
                                         </div>
                                     </div>
                                 </div>
 
-                                <div className="col-lg-4 col-md-4 col-sm-6 m-b30">
+                                <div className="col-lg-4 col-md-6 col-sm-6 m-b30" >
+                                    <div className="icon-bx-wraper bx-style-1 p-a30 center">
+                                        <div className="skill_logo m-b20">
+                                            <Image src={database} title='Database' alt='tech' />
+                                        </div>
+                                        <div className="icon-content">
+                                            <h5 className="dlab-tilte">Database</h5>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div className="col-lg-4 col-md-6 col-sm-6 m-b30" >
+                                    <div className="icon-bx-wraper bx-style-1 p-a30 center">
+                                        <div className="skill_logo m-b20">
+                                            <Image src={geotech} title='Geo Tools' alt='tech' />
+                                        </div>
+                                        <div className="icon-content">
+                                            <h5 className="dlab-tilte">Geo Tools</h5>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div className="col-lg-4 col-md-6 col-sm-6 m-b30" >
+                                    <div className="icon-bx-wraper bx-style-1 p-a30 center">
+                                        <div className="skill_logo m-b20">
+                                            <Image src={othertech} title='Other Tools' alt='tech' />
+                                        </div>
+                                        <div className="icon-content">
+                                            <h5 className="dlab-tilte">Other Tools</h5>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                
+                                {/* <div className="col-lg-6 col-md-6 col-sm-6 m-b30">
                                     <div className="icon-bx-wraper bx-style-1 p-a30 center">
                                         <div className="icon-lg text-white m-b20"> <Link href={"#"} className="icon-cell text-white"><i className="flaticon-map-location" /></Link> </div>
                                         <div className="icon-content">
-                                            <h5 className="dlab-tilte">WebGIS Development</h5>
+                                            <h5 className="dlab-tilte">Other Tools</h5>
                                             <p>Leaflet JS, Openlayers, ArcGIS API</p>
                                         </div>
                                     </div>
-                                </div>
+                                </div> */}
+
+                                
 
                             </div>
                         </div>

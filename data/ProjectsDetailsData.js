@@ -40,11 +40,24 @@ import india_flood_atlas_1 from '../public/images/projects/india_flood_atlas_1.j
 import india_flood_atlas_2 from '../public/images/projects/india_flood_atlas_2.jpg';
 import india_flood_atlas_3 from '../public/images/projects/india_flood_atlas_3.jpg';
 import india_flood_atlas_4 from '../public/images/projects/india_flood_atlas_4.jpg';
+import jalkruti_1 from '../public/images/projects/jalkruti_1.jpg';
+import jalkruti_2 from '../public/images/projects/jalkruti_2.jpg';
 
 
 
 export const ProjectsDetailsData =[
 
+    // {
+    //     ProjectName:"Jalkruti Water Solutions Pvt Ltd Website",
+    //     TagLine:"",
+    //     Description:"The flood atlas of India is based on the gridded simulations of flood dynamics. The atlas provides a glimpse of past annual maximum flooded area during 1901-2020.",
+    //     Tags:['Web Development','Next JS'],
+    //     Image:jalkruti_1,
+    //     CarouselImages:[jalkruti_1,jalkruti_2],
+    //     Link:"https://www.jalkruti.com/",
+    //     Technology:['Next JS']
+
+    // },
     {
         ProjectName:"India Flood Atlas",
         TagLine:"The flood atlas of India is based on the gridded simulations of flood dynamics. The atlas provides a glimpse of past annual maximum flooded area during 1901-2020.",

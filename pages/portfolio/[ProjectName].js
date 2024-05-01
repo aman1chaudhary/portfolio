@@ -41,7 +41,7 @@ const ProjectDetails = () => {
                             <div className="container">
                                 <div className="row m-b40">
                                     <div className="col-lg-6 col-md-6 m-b20">
-                                        <h2 className="m-b10 m-t0">{Project.Name}</h2>
+                                        <h2 className="m-b10 m-t0">{Project.ProjectName}</h2>
                                         <h5 className="m-b20">{Project.TagLine}</h5>
                                         <p className="m-b10">{Project.Description}</p>
                                         {Project.Link && (

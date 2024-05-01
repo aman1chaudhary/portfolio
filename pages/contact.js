@@ -82,7 +82,7 @@ const Contact = () => {
                                                         <span className="icon-sm text-primary text-left"><i className="ti-location-pin"></i></span>
                                                         Location
                                                     </h5>
-                                                    <p>IIT Gandhinagar, Gujarat, India </p>
+                                                    <p>Agra, Uttar Pradesh, India </p>
                                                 </div>
                                             </div>
                                         </div>

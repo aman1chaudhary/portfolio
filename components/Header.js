@@ -7,7 +7,6 @@ import Image from 'next/image';
 class Header extends Component {
     componentDidMount() {
         // sidebar open/close
-
         var Navicon = document.querySelector('.navicon');
         var sidebarmenu = document.querySelector('.myNavbar ');
 
